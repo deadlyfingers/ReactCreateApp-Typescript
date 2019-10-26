@@ -1,0 +1,35 @@
+{
+  "version": "0.2.0",
+  "configurations": [{
+      "name": "Launch Chrome Debugger",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceRoot}/src",
+      "preLaunchTask": "npm: start"
+    },
+    {
+      "name": "Debug Create React App Jest Tests",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/react-scripts",
+      "args": [
+        "test",
+        "--runInBand",
+        "--no-cache",
+        "--watchAll=false"
+      ],
+      "cwd": "${workspaceRoot}",
+      "protocol": "inspector",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "env": {
+        "CI": "true"
+      },
+      "disableOptimisticBPs": true,
+      "skipFiles": [
+        "${workspaceFolder}/node_modules/**/*",
+      ]
+    }
+  ]
+}

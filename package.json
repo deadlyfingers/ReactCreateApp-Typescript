@@ -1,0 +1,69 @@
+{
+  "name": "react-scrolling-infinite-list-ts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "lint": "eslint src/**/*.{ts,tsx}",
+    "test": "react-scripts test",
+    "test:coverage": "react-scripts test --coverage --env=jsdom --watchAll=false",
+    "test:debug": "react-scripts --inspect-brk test --runInBand --no-cache",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-list": "^0.8.13",
+    "react-scripts": "3.2.0"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.3",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/jest": "24.0.19",
+    "@types/node": "12.11.2",
+    "@types/react": "^16.9.9",
+    "@types/react-dom": "16.9.2",
+    "@types/react-list": "^0.8.5",
+    "@typescript-eslint/eslint-plugin": "^2.5.0",
+    "@typescript-eslint/parser": "^2.5.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-prettier": "^3.1.1",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.18.2",
+    "typescript": "3.6.4"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/src/**/*.ts",
+      "**/src/**/*.tsx",
+      "!src/**/*.d.ts",
+      "!coverage/**",
+      "!**/node_modules/**",
+      "!__tests__/**",
+      "!**/src/**/*.test.*",
+      "!**/src/serviceWorker.*",
+      "!**/src/index.tsx",
+      "!**/types/**/*.tsx"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
