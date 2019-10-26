@@ -2,16 +2,17 @@
 
 This [React](https://reactjs.org/) project was created using [Create React App](https://github.com/facebook/create-react-app) optimised for [Typescript](https://www.typescriptlang.org/) development in [VSCode](https://code.visualstudio.com/). The sample app features an infinite scrolling list fetching paginated data from a publicly available [source](https://anilist.co/graphiql) using a [GraphQL](https://graphql.org/) query.
 
-| Developer Environment                                | Status |
-| ---------------------------------------------------- | ------ |
-| Typescript                                           | Yes    |
-| SCSS                                                 | Yes    |
-| Linting                                              | Yes    |
-| Tests                                                | Yes    |
-| Run tests coverage                                   | Yes    |
-| Debugging with VSCode support                        | Yes    |
-| Debug tests with VSCode support                      | Yes    |
-| CRA provides live reload and external device testing | Yes    |
+| Developer Environment           | Status |
+| ------------------------------- | ------ |
+| Typescript                      | Yes    |
+| SCSS                            | Yes    |
+| Linting                         | Yes    |
+| Tests                           | Yes    |
+| Run tests coverage              | Yes    |
+| Debugging with VSCode support   | Yes    |
+| Debug tests with VSCode support | Yes    |
+| Live reload (CRA)               | Yes    |
+| External device testing (CRA)   | Yes    |
 
 There are a number of list view components available for React but I choose [react-list](https://www.npmjs.com/package/react-list) component as it supports a number of key features including recycling view cells which is important for responsive and fluid scrolling with 1000s of items.
 
