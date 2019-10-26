@@ -1,4 +1,6 @@
-# React Create App (Typescript) - Infinite Scrolling sample [![Build Status](https://travis-ci.org/deadlyfingers/ReactCreateApp-Typescript.svg?branch=master)](https://travis-ci.org/deadlyfingers/ReactCreateApp-Typescript)
+# React Create App (Typescript) - Infinite Scrolling sample
+
+# [List View Demo](https://deadlyfingers.github.io/ReactCreateApp-Typescript/) [![Build Status](https://travis-ci.org/deadlyfingers/ReactCreateApp-Typescript.svg?branch=master)](https://travis-ci.org/deadlyfingers/ReactCreateApp-Typescript)
 
 This [React](https://reactjs.org/) project was created using [Create React App](https://github.com/facebook/create-react-app) optimised for [Typescript](https://www.typescriptlang.org/) development in [VSCode](https://code.visualstudio.com/). The sample app features an infinite scrolling list fetching paginated data from a publicly available [source](https://anilist.co/graphiql) using a [GraphQL](https://graphql.org/) query.
 
@@ -80,6 +82,10 @@ Shows project source code test coverage.
 ### `yarn lint`
 
 Lints project source code.
+
+### `yarn deploy`
+
+Triggers manual deployment to [GitHub Pages](https://pages.github.com/).
 
 ## Learn More
 
