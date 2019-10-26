@@ -10,7 +10,7 @@ export default gql`
         lastPage
         hasNextPage
       }
-      media(sort: ID) {
+      media(sort: ID, isAdult: false) {
         id
         title {
           romaji
