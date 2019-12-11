@@ -1,4 +1,4 @@
-# [React (Typescript) infinite scrolling list demo](https://deadlyfingers.github.io/ReactCreateApp-Typescript/) [![Build Status](https://travis-ci.org/deadlyfingers/ReactCreateApp-Typescript.svg?branch=master)](https://travis-ci.org/deadlyfingers/ReactCreateApp-Typescript)
+# [React (Typescript) infinite scrolling list demo](https://deadlyfingers.github.io/react-infinite-scroll/) [![Build Status](https://travis-ci.org/deadlyfingers/react-infinite-scroll.svg?branch=master)](https://travis-ci.org/deadlyfingers/react-infinite-scroll)
 
 This [React](https://reactjs.org/) project was created using [Create React App](https://github.com/facebook/create-react-app) optimised for [Typescript](https://www.typescriptlang.org/) development in [VSCode](https://code.visualstudio.com/). The sample app features an infinite scrolling list fetching paginated data from a publicly available [source](https://anilist.co/graphiql) using a [GraphQL](https://graphql.org/) query.
 
