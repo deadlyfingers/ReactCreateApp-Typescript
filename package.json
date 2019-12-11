@@ -1,5 +1,5 @@
 {
-  "name": "react-scrolling-infinite-list-ts",
+  "name": "react-infinite-scroll",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -71,5 +71,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://deadlyfingers.github.io/ReactCreateApp-Typescript/"
+  "homepage": "https://deadlyfingers.github.io/react-infinite-scroll/"
 }
